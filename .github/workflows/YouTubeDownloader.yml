@@ -44,7 +44,7 @@ on:
 env:
   PYTHONUNBUFFERED: '1'
   DEBIAN_FRONTEND: 'noninteractive'
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
   
 jobs:
   download-and-process:
